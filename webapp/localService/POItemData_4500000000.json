@@ -1,0 +1,102 @@
+{
+	"POItemDetailDatas": [{
+		"ConfErrorIndicator": "",
+		"DeliveryErrorIndicator": "",
+		"DeliveryAddress": "123 East Road / London",
+		"PlantName": "london plant",
+		"Plant": "l1",
+		"Status": "Open",
+		"Currency": "USD",
+		"DeliveryDate": "20130330",
+		"OrderedDate": "20130320",
+		"ValueOrdered": "100.00",
+		"UnitOrdered": "EA",
+		"QuantityOrdered": "10",
+		"UnitForPPUDescription": "",
+		"UnitForPPU": "EA",
+		"QuantityForPPU": "1",
+		"CurrencyForPPU": "USD",
+		"PricePerUnit": "10",
+		"IncotermLocation": "London",
+		"IncotermDescription": "",
+		"Incoterm": "free shipping",
+		"MaterialGroupDescription": "Material group 1",
+		"MaterialGroup": "01",
+		"Description": "Raw-Material",
+		"MaterialID": "ROH",
+		"PONumber": "",
+		"ItemNumberFormatted": 0,
+		"ItemNumber": 10,
+		"POItemDocFlows": [{
+				"Currency": "USD",
+				"Value": 10.00,
+				"UnitDescription": "EA",
+				"Unit": "",
+				"Quantity": "1",
+				"DocumentItem": "0001",
+				"Year": 2000,
+				"CreatedAt": 20001221,
+				"DocumentTypeName": "Rechnungseingang",
+				"DocumentType": "2",
+				"DocumentId": "5105600755",
+				"Status": "Posted"
+			}, {
+				"Currency": "USD",
+				"Value": 10.00,
+				"UnitDescription": "EA",
+				"Unit": "",
+				"Quantity": 1,
+				"DocumentItem": "0002",
+				"Year": 2000,
+				"CreatedAt": 20001219,
+				"DocumentTypeName": "Wareneingang",
+				"DocumentType": "1",
+				"DocumentId": "4900000021",
+				"Status": "Posted"
+			}
+
+		],
+		"Accountings": [{
+			"GlAccountDescription": "Consumption, raw material 1",
+			"GlAccountNumber": "400000",
+			"DistributionPercentage": "100.0 ",
+			"AccountDescription": "SAP cost center",
+			"AccountNumber": "SAP-DE",
+			"AccountCategoryDescription": "Cost Center",
+			"AccountCategory": "K",
+			"AccountLineNumber": "01",
+			"ServiceLineNumber": "",
+			"POItemNumber": 10,
+			"PONumber": "4500000000"
+		}],
+		"PricingConditions": [{
+			"Currency": "USD",
+			"Value": "10",
+			"Description": "Gross Price",
+			"PricingCondition": "1000008121",
+			"ItemNumber": 10,
+			"PONumber": ""
+		}, {
+			"Currency": "USD",
+			"Value": "100",
+			"Description": "Non-Deductible Tax",
+			"PricingCondition": "1000008121",
+			"ItemNumber": 10,
+			"PONumber": ""
+		}, {
+			"Currency": "USD",
+			"Value": "0",
+			"Description": "Cash Discount",
+			"PricingCondition": "1000008121",
+			"ItemNumber": 10,
+			"PONumber": ""
+		}, {
+			"Currency": "USD",
+			"Value": "10",
+			"Description": "OTB Procurement",
+			"PricingCondition": "1000008121",
+			"ItemNumber": 10,
+			"PONumber": ""
+		}]
+	}]
+}

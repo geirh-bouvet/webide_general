@@ -1,0 +1,64 @@
+{
+	"InvoiceHeader": {
+		"Status": "Posted",
+		"CreatedByName": "M. Fischer",
+		"CreatedByID": "6541321654",
+		"CreatedAt": "2012-12-12",
+		"InvoiceNumberFormatted": "500012212-22",
+		"InvoiceNumber": 50001221222,
+		"SupplierName": "ACME inc.",
+		"SupplierID": 156456,
+
+		"CompanyCode": "0815-1138",
+		"ExternalDocumentID": "4711",
+		"PaymentMessage": "Paid",
+		"Currency": "USD",
+		"PostingDate": "2013-01-26",
+		"InvoiceDate": "2013-03-31",
+		"DueDate": "2013-04-11",
+		"Year": 2012,
+
+		"TaxAmount": 3123.22,
+		"GrossAmount": 121111.44,
+		"Value": 123123.22,
+		"InvoiceItems": {
+			"results": [{
+				"ItemNumber": 1231230,
+				"ItemNumberFormatted": "12-312-30",
+				"Description": "Raw-Material",
+				"MaterialID": "04551",
+				"PONumber": 450000001,
+				"POItemNumber": 450000021,
+				"TaxCode": "Full",
+				"TaxCodeDescription": "TaxCodeDescription",
+				"PricePerUnit": 12313.11,
+				"QuantityForPPU": "1",
+				"UnitForPPU": "EA",
+				"UnitForPPUDescription": "",
+				"Quantity": "10",
+				"Unit": "EA",
+				"UnitDescription": "PART",
+				"Value": 12313.11,
+				"Currency": "USD"
+			}, {
+				"ItemNumber": 5465465,
+				"ItemNumberFormatted": "54-654-65",
+				"Description": "Description-Material",
+				"MaterialID": "04551",
+				"PONumber": 450000001,
+				"POItemNumber": 450000021,
+				"TaxCode": "Full",
+				"TaxCodeDescription": "TaxCodeDescription",
+				"PricePerUnit": 12313.11,
+				"QuantityForPPU": "1",
+				"UnitForPPU": "EA",
+				"UnitForPPUDescription": "",
+				"Quantity": "10",
+				"Unit": "EA",
+				"UnitDescription": "PART",
+				"Value": 12313.11,
+				"Currency": "USD"
+			}]
+		}
+	}
+}

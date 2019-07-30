@@ -1,0 +1,26 @@
+{
+	"GoodsReceiptHeader": {
+		"Status": "Posted",
+		"CreatedByName": "M. Fischer",
+		"CreatedByID": "6541321654",
+		"CreatedAt": "20120112",
+		"PostingDate": "20130216",
+		"SupplierName": "SupplierName",
+		"SupplierID": 156456,
+		"ItemNumber": "20",
+		"Year": 2012,
+		"GoodsReceiptNumberFormatted": "500012212",
+		"GoodsReceiptNumber": 50001221222,
+		"GoodsReceiptItems": [{
+			"ItemNumber": 1,
+			"MaterialID": "ROH-6543",
+			"Description": "Mouse Pads",
+			"QuantityOrdered": "10",
+			"UnitOrdered": "EA",
+			"QuantityDelivered": "10",
+			"UnitDelivered": "EA",
+			"DeliveredDate": "20130313",
+			"PlantName": "london plant"
+		}]
+	}
+}
